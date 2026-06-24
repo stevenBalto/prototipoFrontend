@@ -1,0 +1,106 @@
+<div style="background: var(--color-background-secondary); border-radius: var(--border-radius-lg); padding: 20px; display:flex; justify-content:center;">
+  <div style="width: 820px; background:#FAF7F2; border-radius:18px; overflow:hidden; border:0.5px solid var(--color-border-tertiary); font-family: var(--font-sans); padding:20px;">
+
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:18px;">
+      <div>
+        <div style="font-size:19px; font-weight:600; color:#1E1E1E;">Menú / Catálogo</div>
+        <div style="font-size:10px; color:#A8895E; margin-top:2px;">Dashboard / Menú</div>
+      </div>
+      <button style="background:#E13642; color:#fff; border:none; padding:10px 16px; border-radius:10px; font-size:12px; font-weight:600; display:flex; align-items:center; gap:6px;">
+        <i class="ti ti-plus" style="font-size:14px;" aria-hidden="true"></i> Nuevo producto
+      </button>
+    </div>
+
+    <div style="display:grid; grid-template-columns: repeat(4,1fr); gap:12px; margin-bottom:16px;">
+      <div style="background:#fff; border-radius:14px; border:0.5px solid rgba(168,137,94,0.4); padding:13px;">
+        <div style="font-size:20px; font-weight:700; color:#1E1E1E;">38</div>
+        <div style="font-size:10px; color:#A8895E;">Productos totales</div>
+      </div>
+      <div style="background:#fff; border-radius:14px; border:0.5px solid rgba(168,137,94,0.4); padding:13px;">
+        <div style="font-size:20px; font-weight:700; color:#2e9e4f;">34</div>
+        <div style="font-size:10px; color:#A8895E;">Disponibles</div>
+      </div>
+      <div style="background:#fff; border-radius:14px; border:0.5px solid rgba(168,137,94,0.4); padding:13px;">
+        <div style="font-size:20px; font-weight:700; color:#E13642;">4</div>
+        <div style="font-size:10px; color:#A8895E;">Agotados</div>
+      </div>
+      <div style="background:#fff; border-radius:14px; border:0.5px solid rgba(168,137,94,0.4); padding:13px;">
+        <div style="font-size:20px; font-weight:700; color:#F2B134;">6</div>
+        <div style="font-size:10px; color:#A8895E;">Destacados</div>
+      </div>
+    </div>
+
+    <div style="background:#fff; border-radius:14px; border:0.5px solid rgba(168,137,94,0.4); padding:14px;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+        <div style="display:flex; gap:8px;">
+          <span style="background:#E13642; color:#fff; font-size:10px; padding:6px 13px; border-radius:16px;">Todos</span>
+          <span style="font-size:10px; color:#1E1E1E; padding:6px 13px; border:0.5px solid #A8895E; border-radius:16px;">Pizza</span>
+          <span style="font-size:10px; color:#1E1E1E; padding:6px 13px; border:0.5px solid #A8895E; border-radius:16px;">Grill</span>
+          <span style="font-size:10px; color:#1E1E1E; padding:6px 13px; border:0.5px solid #A8895E; border-radius:16px;">Pasta</span>
+          <span style="font-size:10px; color:#1E1E1E; padding:6px 13px; border:0.5px solid #A8895E; border-radius:16px;">Bebidas</span>
+        </div>
+        <div style="display:flex; gap:8px; align-items:center;">
+          <div style="background:#fff; border:0.5px solid #A8895E; border-radius:10px; padding:6px 12px; font-size:10px; color:#9a9a9a; display:flex; align-items:center; gap:5px;"><i class="ti ti-search" style="font-size:12px;" aria-hidden="true"></i>Buscar producto...</div>
+          <span style="font-size:10px; color:#1E1E1E; border:0.5px solid #A8895E; border-radius:8px; padding:6px 10px; display:flex; align-items:center; gap:4px;"><i class="ti ti-adjustments" style="font-size:12px;" aria-hidden="true"></i> Extras</span>
+        </div>
+      </div>
+
+      <div style="display:grid; grid-template-columns: 50px 1fr 90px 90px 70px 70px 70px 90px; gap:6px; padding:6px 8px; font-size:9px; color:#A8895E; border-bottom:0.5px solid rgba(168,137,94,0.25);">
+        <span></span><span>Producto</span><span>Categoría</span><span>Precio base</span><span>Destacado</span><span>Disponible</span><span></span><span>Acciones</span>
+      </div>
+
+      <div style="display:grid; grid-template-columns: 50px 1fr 90px 90px 70px 70px 70px 90px; gap:6px; padding:9px 8px; align-items:center; border-bottom:0.5px solid rgba(168,137,94,0.12);">
+        <div style="width:36px; height:36px; border-radius:8px; background:#E13642; display:flex; align-items:center; justify-content:center;"><i class="ti ti-pizza" style="color:#fff; font-size:18px;" aria-hidden="true"></i></div>
+        <span style="font-size:11px; color:#1E1E1E;">Pizza Pepperoni</span>
+        <span style="font-size:10px; color:#6b6b6b;">Pizza</span>
+        <span style="font-size:11px; color:#1E1E1E;">₡4.900</span>
+        <span style="color:#F2B134; font-size:14px; text-align:center;">★</span>
+        <div style="width:30px; height:16px; background:#2e9e4f; border-radius:9px; position:relative;"><div style="width:12px; height:12px; background:#fff; border-radius:50%; position:absolute; top:2px; right:2px;"></div></div>
+        <span></span>
+        <div style="display:flex; gap:6px;"><i class="ti ti-edit" style="color:#A8895E; font-size:15px;" aria-hidden="true"></i><i class="ti ti-trash" style="color:#A8895E; font-size:15px;" aria-hidden="true"></i></div>
+      </div>
+
+      <div style="display:grid; grid-template-columns: 50px 1fr 90px 90px 70px 70px 70px 90px; gap:6px; padding:9px 8px; align-items:center; border-bottom:0.5px solid rgba(168,137,94,0.12);">
+        <div style="width:36px; height:36px; border-radius:8px; background:#E13642; display:flex; align-items:center; justify-content:center;"><i class="ti ti-pizza" style="color:#fff; font-size:18px;" aria-hidden="true"></i></div>
+        <span style="font-size:11px; color:#1E1E1E;">Pizza 4 Quesos</span>
+        <span style="font-size:10px; color:#6b6b6b;">Pizza</span>
+        <span style="font-size:11px; color:#1E1E1E;">₡5.500</span>
+        <span style="color:#e0e0e0; font-size:14px; text-align:center;">☆</span>
+        <div style="width:30px; height:16px; background:#2e9e4f; border-radius:9px; position:relative;"><div style="width:12px; height:12px; background:#fff; border-radius:50%; position:absolute; top:2px; right:2px;"></div></div>
+        <span></span>
+        <div style="display:flex; gap:6px;"><i class="ti ti-edit" style="color:#A8895E; font-size:15px;" aria-hidden="true"></i><i class="ti ti-trash" style="color:#A8895E; font-size:15px;" aria-hidden="true"></i></div>
+      </div>
+
+      <div style="display:grid; grid-template-columns: 50px 1fr 90px 90px 70px 70px 70px 90px; gap:6px; padding:9px 8px; align-items:center; border-bottom:0.5px solid rgba(168,137,94,0.12); opacity:0.55;">
+        <div style="width:36px; height:36px; border-radius:8px; background:#F58220; display:flex; align-items:center; justify-content:center;"><i class="ti ti-meat" style="color:#fff; font-size:18px;" aria-hidden="true"></i></div>
+        <span style="font-size:11px; color:#1E1E1E;">Costillas BBQ</span>
+        <span style="font-size:10px; color:#6b6b6b;">Grill</span>
+        <span style="font-size:11px; color:#1E1E1E;">₡8.500</span>
+        <span style="color:#F2B134; font-size:14px; text-align:center;">★</span>
+        <div style="width:30px; height:16px; background:#ccc; border-radius:9px; position:relative;"><div style="width:12px; height:12px; background:#fff; border-radius:50%; position:absolute; top:2px; left:2px;"></div></div>
+        <span style="font-size:8px; color:#E13642; font-weight:600;">Agotado</span>
+        <div style="display:flex; gap:6px;"><i class="ti ti-edit" style="color:#A8895E; font-size:15px;" aria-hidden="true"></i><i class="ti ti-trash" style="color:#A8895E; font-size:15px;" aria-hidden="true"></i></div>
+      </div>
+
+      <div style="display:grid; grid-template-columns: 50px 1fr 90px 90px 70px 70px 70px 90px; gap:6px; padding:9px 8px; align-items:center;">
+        <div style="width:36px; height:36px; border-radius:8px; background:#A8895E; display:flex; align-items:center; justify-content:center;"><i class="ti ti-tools-kitchen-2" style="color:#fff; font-size:18px;" aria-hidden="true"></i></div>
+        <span style="font-size:11px; color:#1E1E1E;">Pasta Alfredo</span>
+        <span style="font-size:10px; color:#6b6b6b;">Pasta</span>
+        <span style="font-size:11px; color:#1E1E1E;">₡5.650</span>
+        <span style="color:#e0e0e0; font-size:14px; text-align:center;">☆</span>
+        <div style="width:30px; height:16px; background:#2e9e4f; border-radius:9px; position:relative;"><div style="width:12px; height:12px; background:#fff; border-radius:50%; position:absolute; top:2px; right:2px;"></div></div>
+        <span></span>
+        <div style="display:flex; gap:6px;"><i class="ti ti-edit" style="color:#A8895E; font-size:15px;" aria-hidden="true"></i><i class="ti ti-trash" style="color:#A8895E; font-size:15px;" aria-hidden="true"></i></div>
+      </div>
+
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-top:12px;">
+        <span style="font-size:9px; color:#A8895E;">Mostrando 1-4 de 38</span>
+        <div style="display:flex; gap:5px;">
+          <span style="width:22px; height:22px; border-radius:6px; background:#E13642; color:#fff; font-size:9px; display:flex; align-items:center; justify-content:center;">1</span>
+          <span style="width:22px; height:22px; border-radius:6px; border:0.5px solid #A8895E; color:#1E1E1E; font-size:9px; display:flex; align-items:center; justify-content:center;">2</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
