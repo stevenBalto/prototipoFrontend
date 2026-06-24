@@ -11,6 +11,9 @@ dist-ssr/
 npm-debug.log*
 pnpm-debug.log*
 
+# Claude Code
+.claude/
+
 # Editor / OS
 .DS_Store
 Thumbs.db
